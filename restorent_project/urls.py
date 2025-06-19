@@ -29,3 +29,5 @@ urlpatterns = [
   path('Book-Tabel', views.BookTableView, name='Book-Tabel'),      
   path('feedback', views.feedbackView, name='Feedback'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
